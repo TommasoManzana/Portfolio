@@ -4,6 +4,8 @@ import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
 import { SocialIcon } from 'react-social-icons';
 
+import Typist from 'react-typist';
+
 const Container = styled.div`
   text-align: center;
 `
@@ -48,8 +50,9 @@ const LandingBio = () => (
     render={data => (
       <OuterContainer>
         <Container>
-          <NameHeader>Tommaso Manzana</NameHeader>
+          <NameHeader><Typist cursor={{ hideWhenDone: true }}>Tommaso Manzana</Typist></NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
+          
           <SocialLinks>
             <SocialIcon style={Social} url="https://twitter.com/TommasoManzana" />
             <SocialIcon style={Social} url="https://www.linkedin.com/in/tommaso-manzana/" />
