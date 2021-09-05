@@ -11,7 +11,7 @@ const Content = styled.div`
 
 const NavLink = styled(Link)`
   color: black;
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -37,7 +37,7 @@ const NavLink = styled(Link)`
 
 const GitHubLink = styled.a`
   color: black;
-  margin-left: 15px;
+  margin-left: 20px;
   text-decoration: none;
   display: inline-block;
   position: relative;
@@ -78,10 +78,8 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">Home</HomeLink>
         <NavLink to="/blog">Projects</NavLink>
-        <NavLink to="/blog">CV</NavLink>
-        <GitHubLink href="https://github.com/niklasmtj/gatsby-starter-julia">
-          GitHub
-        </GitHubLink>
+        <NavLink to="/cv">CV</NavLink>
+        <GitHubLink href="https://github.com/TommasoManzana">GitHub</GitHubLink>
       </p>
     </Content>
   </SiteHeader>

@@ -2,6 +2,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "@emotion/styled"
+import { SocialIcon } from 'react-social-icons';
 
 const Container = styled.div`
   text-align: center;
@@ -17,14 +18,20 @@ const OuterContainer = styled.div`
 
 const Description = styled.p`
   padding: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 4rem;
   font-size: 1.4rem;
 `
 
 const NameHeader = styled.h1`
   font-size: 3.5rem;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 `
+
+const SocialLinks = styled.div`
+  width: 100%;
+  display: inline-block;
+`
+const Social = { marginRight: '10px', display: 'inline-block' };
 
 const LandingBio = () => (
   <StaticQuery
@@ -43,6 +50,11 @@ const LandingBio = () => (
         <Container>
           <NameHeader>Tommaso Manzana</NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
+          <SocialLinks>
+            <SocialIcon style={Social} url="https://twitter.com/TommasoManzana" />
+            <SocialIcon style={Social} url="https://www.linkedin.com/in/tommaso-manzana/" />
+            <SocialIcon url="https://www.instagram.com/tommaso.manzana/" />
+          </SocialLinks>
         </Container>
       </OuterContainer>
     )}
