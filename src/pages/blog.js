@@ -19,13 +19,13 @@ const ArticleDate = styled.h5`
 
 const MarkerHeader = styled.h3`
   display: inline;
-  border-radius: 1em 0 1em 0;
-  background-image: linear-gradient(
-    -100deg,
-    rgba(255, 250, 150, 0.15),
-    rgba(255, 250, 150, 0.8) 100%,
-    rgba(255, 250, 150, 0.25)
-  );
+  // border-radius: 1em 0 1em 0;
+  // background-image: linear-gradient(
+  //   -100deg,
+  //   rgba(255, 250, 150, 0.15),
+  //   rgba(255, 250, 150, 0.8) 100%,
+  //   rgba(255, 250, 150, 0.25)
+  // );
 `
 
 const ReadingTime = styled.h5`
@@ -34,6 +34,7 @@ const ReadingTime = styled.h5`
 `
 
 const IndexPage = ({ data }) => {
+  console.log(data)
   return (
     <Layout>
       <SEO title="Projects" />
@@ -58,7 +59,7 @@ const IndexPage = ({ data }) => {
               </Link>
               <div>
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
+                <ReadingTime> - {node.frontmatter.category}</ReadingTime>
               </div>
               <p>{node.excerpt}</p>
             </div>
@@ -90,6 +91,7 @@ export const query = graphql`
             date(formatString: "DD MMMM, YYYY")
             rawDate: date
             path
+            category
           }
           fields {
             slug

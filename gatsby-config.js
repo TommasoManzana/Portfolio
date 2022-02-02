@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/gatsby-github-pages",
   siteMetadata: {
     title: `Tommaso Manzana`,
-    subtitle: `software developer`,
+    subtitle: `Software developer`,
     description: `A minimal starter built with Gatsbyjs.`,
     author: `@niklasmtj`,
   },
