@@ -6,101 +6,110 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: same-origin
   Strict-Transport-Security: max-age=63072000
-/styles.ff13c2bd40810dbce494.css
+/styles.138dcce6d90a1199667f.css
   Cache-Control: public, max-age=31536000, immutable
 /styles-89fd2ae28bdf06750a71.js
   Cache-Control: public, max-age=31536000, immutable
 /commons-f57fcf6032de49222d5d.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-blog-post-js-211fd301275fd857341d.js
+/component---src-templates-blog-post-js-818af214290b26d70db7.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-js-4c9fa5790aa9ec081a1b.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-blog-js-c92553fee6d9c4fe5841.js
+/component---src-pages-blog-js-efc00a7da7b958ed218f.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-cv-js-5e14215cb41ae8b4d63d.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-index-js-4093aa513709ae9df31d.js
+/component---src-pages-index-js-6dbce5deb9ccbba458a1.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-70046d7349f9e4f8942e.js
+/webpack-runtime-d6fddc68a7a2014e3219.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-8dcecaaefd71e2213eb2.js
   Cache-Control: public, max-age=31536000, immutable
-/app-83941f4633813c98fee6.js
+/app-ae3952ba821e39d4cc39.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
-/gatsby-github-pages/blog/example-title
-  Link: </gatsby-github-pages/webpack-runtime-70046d7349f9e4f8942e.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/app-83941f4633813c98fee6.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/component---src-templates-blog-post-js-211fd301275fd857341d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </gatsby-github-pages/page-data/blog/example-title/page-data.json>; rel=preload; as=fetch; crossorigin
-/gatsby-github-pages/blog/code-example
-  Link: </gatsby-github-pages/webpack-runtime-70046d7349f9e4f8942e.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/app-83941f4633813c98fee6.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/component---src-templates-blog-post-js-211fd301275fd857341d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </gatsby-github-pages/page-data/blog/code-example/page-data.json>; rel=preload; as=fetch; crossorigin
-/gatsby-github-pages/blog/second-title
-  Link: </gatsby-github-pages/webpack-runtime-70046d7349f9e4f8942e.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/app-83941f4633813c98fee6.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/component---src-templates-blog-post-js-211fd301275fd857341d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </gatsby-github-pages/page-data/blog/second-title/page-data.json>; rel=preload; as=fetch; crossorigin
-/gatsby-github-pages/404/
-  Link: </gatsby-github-pages/webpack-runtime-70046d7349f9e4f8942e.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/app-83941f4633813c98fee6.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/component---src-pages-404-js-4c9fa5790aa9ec081a1b.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </gatsby-github-pages/page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
-/gatsby-github-pages/blog/
-  Link: </gatsby-github-pages/webpack-runtime-70046d7349f9e4f8942e.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/app-83941f4633813c98fee6.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/component---src-pages-blog-js-c92553fee6d9c4fe5841.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </gatsby-github-pages/page-data/blog/page-data.json>; rel=preload; as=fetch; crossorigin
-/gatsby-github-pages/cv/
-  Link: </gatsby-github-pages/webpack-runtime-70046d7349f9e4f8942e.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/app-83941f4633813c98fee6.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/component---src-pages-cv-js-5e14215cb41ae8b4d63d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </gatsby-github-pages/page-data/cv/page-data.json>; rel=preload; as=fetch; crossorigin
-/gatsby-github-pages/
-  Link: </gatsby-github-pages/webpack-runtime-70046d7349f9e4f8942e.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/app-83941f4633813c98fee6.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/component---src-pages-index-js-4093aa513709ae9df31d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </gatsby-github-pages/page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
-/gatsby-github-pages/404.html
-  Link: </gatsby-github-pages/webpack-runtime-70046d7349f9e4f8942e.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/app-83941f4633813c98fee6.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/component---src-pages-404-js-4c9fa5790aa9ec081a1b.js>; rel=preload; as=script
-  Link: </gatsby-github-pages/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </gatsby-github-pages/page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/blog/example-title
+  Link: </Portfolio/webpack-runtime-d6fddc68a7a2014e3219.js>; rel=preload; as=script
+  Link: </Portfolio/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </Portfolio/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </Portfolio/app-ae3952ba821e39d4cc39.js>; rel=preload; as=script
+  Link: </Portfolio/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-818af214290b26d70db7.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/blog/example-title/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/blog/second-title
+  Link: </Portfolio/webpack-runtime-d6fddc68a7a2014e3219.js>; rel=preload; as=script
+  Link: </Portfolio/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </Portfolio/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </Portfolio/app-ae3952ba821e39d4cc39.js>; rel=preload; as=script
+  Link: </Portfolio/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-818af214290b26d70db7.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/blog/second-title/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/blog/code-example
+  Link: </Portfolio/webpack-runtime-d6fddc68a7a2014e3219.js>; rel=preload; as=script
+  Link: </Portfolio/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </Portfolio/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </Portfolio/app-ae3952ba821e39d4cc39.js>; rel=preload; as=script
+  Link: </Portfolio/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-818af214290b26d70db7.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/blog/code-example/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/blog/simulated-annealing-salesman
+  Link: </Portfolio/webpack-runtime-d6fddc68a7a2014e3219.js>; rel=preload; as=script
+  Link: </Portfolio/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </Portfolio/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </Portfolio/app-ae3952ba821e39d4cc39.js>; rel=preload; as=script
+  Link: </Portfolio/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-818af214290b26d70db7.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/blog/simulated-annealing-salesman/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/404/
+  Link: </Portfolio/webpack-runtime-d6fddc68a7a2014e3219.js>; rel=preload; as=script
+  Link: </Portfolio/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </Portfolio/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </Portfolio/app-ae3952ba821e39d4cc39.js>; rel=preload; as=script
+  Link: </Portfolio/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-pages-404-js-4c9fa5790aa9ec081a1b.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/blog/
+  Link: </Portfolio/webpack-runtime-d6fddc68a7a2014e3219.js>; rel=preload; as=script
+  Link: </Portfolio/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </Portfolio/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </Portfolio/app-ae3952ba821e39d4cc39.js>; rel=preload; as=script
+  Link: </Portfolio/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-pages-blog-js-efc00a7da7b958ed218f.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/blog/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/cv/
+  Link: </Portfolio/webpack-runtime-d6fddc68a7a2014e3219.js>; rel=preload; as=script
+  Link: </Portfolio/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </Portfolio/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </Portfolio/app-ae3952ba821e39d4cc39.js>; rel=preload; as=script
+  Link: </Portfolio/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-pages-cv-js-5e14215cb41ae8b4d63d.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/cv/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/
+  Link: </Portfolio/webpack-runtime-d6fddc68a7a2014e3219.js>; rel=preload; as=script
+  Link: </Portfolio/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </Portfolio/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </Portfolio/app-ae3952ba821e39d4cc39.js>; rel=preload; as=script
+  Link: </Portfolio/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-pages-index-js-6dbce5deb9ccbba458a1.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/404.html
+  Link: </Portfolio/webpack-runtime-d6fddc68a7a2014e3219.js>; rel=preload; as=script
+  Link: </Portfolio/styles-89fd2ae28bdf06750a71.js>; rel=preload; as=script
+  Link: </Portfolio/framework-8dcecaaefd71e2213eb2.js>; rel=preload; as=script
+  Link: </Portfolio/app-ae3952ba821e39d4cc39.js>; rel=preload; as=script
+  Link: </Portfolio/commons-f57fcf6032de49222d5d.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-pages-404-js-4c9fa5790aa9ec081a1b.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
