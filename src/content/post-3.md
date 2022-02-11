@@ -1,33 +1,50 @@
 ---
 title: "FST"
-date: "2019-06-06"
+date: "2019-11-06"
 draft: false
-path: "/blog/code-example"
+path: "/blog/FST"
 category: "App"
 ---
 
-## An Code example with PrismJS
-Gatsby-Starter-Julia uses the Atom Editor Theme.
+The goal was to develop a Mobile App as well as a Web App capable of managing a ski team. The commitment has been given by one of the most prestigious ski teams in Italy, the Falconeri Ski Team.
+Here are some of the hurdles:
 
-```js
-console.log("Hello World");
-```
+- manage different groups / categories of skiers & instructors
+- collect enough info for the single workout / race in a simple way
+- single skier profile with some analysis
 
-## Default NodeJS server
+## App Screenshots
 
-```js
-const http = require('http');
+<div style="display: flex; justify-content: center; flex-flow: wrap; margin-bottom : 1.5rem;">
+    <div
+        style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/fst/sc1.png">
+    </div>
+    <div
+        style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/fst/sc2.png">
+    </div>
+    <div
+        style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/fst/sc3.png">
+    </div>
+</div>
 
-const hostname = '127.0.0.1';
-const port = 3000;
+<div style="display: flex; justify-content: center; flex-flow: wrap; margin-bottom : 2rem;">
+    <div
+        style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/fst/sc4.png">
+    </div>
+    <div
+        style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/fst/sc5.png">
+    </div>
+    <div
+        style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/fst/sc6.png">
+    </div>
+</div>
 
-const server = http.createServer((req, res) => {
-  res.statusCode = 200;
-  res.setHeader('Content-Type', 'text/plain');
-  res.end('Hello World\n');
-});
+## Tools
 
-server.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
-});
-```
+The app was realized using the [Ionic Framework](https://ionicframework.com/), written in [Angular](https://angular.io/). The authentication process was managed using Google's [Firebase](https://firebase.google.com/), the whole backend was recently moved to a proprietary server and developed via SQL.
