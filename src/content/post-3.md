@@ -6,12 +6,12 @@ path: "/blog/FST"
 category: "App"
 ---
 
-The goal was to develop a Mobile App as well as a Web App capable of managing a ski team. The commitment has been given by one of the most prestigious ski teams in Italy, the Falconeri Ski Team.
+The goal was to develop a Mobile App as well as a Web App capable of managing a ski team. Such a commission has been given by one of the most prestigious ski teams in Italy, the [Falconeri Ski Team](https://falconeriskiteam.net/).
 Here are some of the hurdles:
 
-- manage different groups / categories of skiers & instructors
-- collect enough info for the single workout / race in a simple way
-- single skier profile with some analysis
+- Manage different groups / categories of skiers & instructors
+- Collect enough info for each workout / race in a straightforward manner
+- Single skier profile with some analysis
 
 ## App Screenshots
 
