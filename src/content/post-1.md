@@ -1,46 +1,61 @@
 ---
-title: "UniTn Winter Sports Hackathon"
-date: "2019-03-17"
+title: "Winter Sports Hackathon"
+date: "2021-06-08"
 draft: false
-path: "/blog/example-title"
+path: "/blog/UniTn-Hackathon"
 category: "App"
 ---
-# H1
 
-## H2
+## Winning an Hackathon! 🥳
 
-### H3
+Due to the COVID-19 pandemic industries all around the world have been severly affected turning fans away from live events. The stakeholders need innovative solutions that can expand the remote viewing experience, connecting fans with eachother and with the athletes during the TV show.
+Thanks to [HypeSportsInnovation](https://www.hypesportsinnovation.com) for organizing [this event](https://www.hypesportsinnovation.com/HYPE-UniTrento-2021-Wintersports-Hackathon) in collaboration with the [University of Trento](https://www.unitn.it/en) in order to find solutions to this problem.
+<br />
+<br />
+We had 36 hours, data from sensors on the skier's boots and video sequences. We would then be challenged to extract useful information, metrics and comparisons in order to improve fan engagement.
+<br />
+The data was releated to a race that took place on January 24th in Kitzbühel, Austria.
 
-#### H4
+## Idea
 
-##### H5
+Our team idea was to develop a mobile application that would act as a game for the spectator.
+We wanted it to be as inclusive as possible, that is why we aimed for the simplest idea: "<span style="color:green"> _green light_ </span> / <span style="color:red"> _red light_ </span>". The live data would be synced with the descending athlete and a question would appear on the screen. The user now has a choice between a green and a red button, resembling the classic colors used on TV to tell wether the skier is ahead or behind in the competition.
 
-###### H6
+## Partners
 
-Paragraph
+<div style="display: flex; flex-direction: column; align-items: center; margin-top: 2rem; margin-bottom : 1rem;">
+    <div
+        style="width: 130px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/hackathon/fis.png">
+    </div>
+<div />
 
----
+<div style="display: flex; justify-content: center; flex-flow: wrap; margin-bottom : 1rem;">
+    <div
+        style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/hackathon/swiss.png">
+    </div>
+    <div
+        style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/hackathon/ebu.png">
+    </div>
+</div>
 
-> This is a quote
-
----
-
-[Example.com](example.com)
-
----
-
-`const foo = bar`
-
-```javascript
-const foo = bar
-console.log(foo);
-```
-
----
-
-| Hello | World |
-|-------|------ |
-| Foo   | Bar   |
-
-
-
+<div style="display: flex; justify-content: center; flex-flow: wrap; margin-bottom : 1.5rem;">
+    <div
+        style="width: 170px; height: 90px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/hackathon/unitn.png">
+    </div>
+    <div
+        style="width: 170px; height: 90px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/hackathon/hype.png">
+    </div>
+    <div
+        style="width: 170px; height: 90px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/hackathon/trentino.png">
+    </div>
+    <div
+        style="width: 170px; height: 90px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+        <img style="display: inline-block;" src="../images/hackathon/province.png">
+    </div>
+</div>
