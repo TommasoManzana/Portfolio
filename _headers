@@ -30,6 +30,14 @@
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
+/Portfolio/blog/UniTn-Hackathon
+  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
+  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/blog/UniTn-Hackathon/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/covid19
   Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
@@ -54,6 +62,14 @@
   Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/simulated-annealing-salesman/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/blog/SkiRaceGenie
+  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
+  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/blog/SkiRaceGenie/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/404/
   Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
@@ -94,19 +110,3 @@
   Link: </Portfolio/component---src-pages-index-js-21a16f1a0498c179ac07.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/index/page-data.json>; rel=preload; as=fetch; crossorigin
-/Portfolio/blog/UniTn-Hackathon
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
-  Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
-  Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
-  Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
-  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </Portfolio/page-data/blog/UniTn-Hackathon/page-data.json>; rel=preload; as=fetch; crossorigin
-/Portfolio/blog/SkiRaceGenie
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
-  Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
-  Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
-  Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
-  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </Portfolio/page-data/blog/SkiRaceGenie/page-data.json>; rel=preload; as=fetch; crossorigin
