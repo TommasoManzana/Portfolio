@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import { MDXRenderer } from "gatsby-plugin-mdx"
 import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -27,31 +28,31 @@ const HeaderDate = styled.h3`
 `
 
 // STYLE THE TAGS INSIDE THE MARKDOWN HERE
-const MarkdownContent = styled.div`
-  a {
-    text-decoration: none;
-    position: relative;
+// const MarkdownContent = styled.div`
+//   a {
+//     text-decoration: none;
+//     position: relative;
 
-    background-image: linear-gradient(
-      rgba(255, 250, 150, 0.8),
-      rgba(255, 250, 150, 0.8)
-    );
-    background-repeat: no-repeat;
-    background-size: 100% 0.2em;
-    background-position: 0 88%;
-    transition: background-size 0.25s ease-in;
-    &:hover {
-      background-size: 100% 88%;
-    }
-  }
+//     background-image: linear-gradient(
+//       rgba(255, 250, 150, 0.8),
+//       rgba(255, 250, 150, 0.8)
+//     );
+//     background-repeat: no-repeat;
+//     background-size: 100% 0.2em;
+//     background-position: 0 88%;
+//     transition: background-size 0.25s ease-in;
+//     &:hover {
+//       background-size: 100% 88%;
+//     }
+//   }
 
-  a > code:hover {
-    text-decoration: underline;
-  }
-`
+//   a > code:hover {
+//     text-decoration: underline;
+//   }
+// `
 
 const BlogPost = ({ data }) => {
-  const post = data.markdownRemark
+  const post = data.mdx
   return (
     <Layout>
       <Seo
@@ -63,7 +64,7 @@ const BlogPost = ({ data }) => {
         <HeaderDate>
           {post.frontmatter.date} - {post.fields.readingTime.text}
         </HeaderDate>
-        <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
+        <MDXRenderer>{post.body}</MDXRenderer>
       </Content>
     </Layout>
   )
@@ -71,9 +72,9 @@ const BlogPost = ({ data }) => {
 
 export const pageQuery = graphql`
   query ($path: String!) {
-    markdownRemark(frontmatter: { path: { eq: $path } }) {
-      html
+    mdx(frontmatter: { path: { eq: $path } }) {
       excerpt(pruneLength: 160)
+      body
       frontmatter {
         date(formatString: "DD MMMM, YYYY")
         path

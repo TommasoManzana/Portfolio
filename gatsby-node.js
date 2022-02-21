@@ -19,7 +19,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`)
 
 exports.onCreateNode = ({ node, getNode, actions }) => {
   const { createNodeField } = actions
-  if (node.internal.type === `MarkdownRemark`) {
+  if (node.internal.type === `Mdx`) {
     const slug = createFilePath({ node, getNode, basePath: `pages` })
     createNodeField({
       node,
@@ -34,7 +34,7 @@ exports.createPages = ({ graphql, actions }) => {
   const blogPostTemplate = path.resolve(`src/templates/blog-post.js`)
   return graphql(`
     {
-      allMarkdownRemark {
+      allMdx {
         edges {
           node {
             frontmatter {
@@ -49,11 +49,11 @@ exports.createPages = ({ graphql, actions }) => {
         }
       }
     }
-  `).then(result => {
+  `).then((result) => {
     if (result.errors) {
       return Promise.reject(result.errors)
     }
-    result.data.allMarkdownRemark.edges
+    result.data.allMdx.edges
       .filter(({ node }) => !node.frontmatter.draft)
       .forEach(({ node }) => {
         createPage({
@@ -64,4 +64,27 @@ exports.createPages = ({ graphql, actions }) => {
         })
       })
   })
+}
+
+exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+  if (stage === "build-html" || stage === "develop-html") {
+    actions.setWebpackConfig({
+      module: {
+        rules: [
+          {
+            test: /three-conic-polygon-geometry/,
+            use: loaders.null(),
+          },
+          {
+            test: /three-fatline/,
+            use: loaders.null(),
+          },
+          {
+            test: /three-globe/,
+            use: loaders.null(),
+          },
+        ],
+      },
+    })
+  }
 }
