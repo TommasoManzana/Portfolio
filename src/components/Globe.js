@@ -1,4 +1,4 @@
-import React, { useEffect } from "react"
+import React, { useState, useEffect } from "react"
 
 import { Color } from "three"
 import { Canvas } from "@react-three/fiber"
@@ -7,79 +7,85 @@ import { OrbitControls } from "@react-three/drei"
 import ThreeGlobe from "three-globe"
 import countries from "../files/globe-data-min.json"
 import travelHistory from "../files/travelHistory.json"
-// import Box from "./Box"
 
 export default function Globe() {
-  // Initialize the Globe
-  const Earth = new ThreeGlobe({
-    waitForGlobeReady: true,
-    animateIn: true,
-  })
-    .hexPolygonsData(countries.features)
-    .hexPolygonResolution(3)
-    .hexPolygonMargin(0.55)
-    .showAtmosphere(true)
-    .atmosphereColor("#3a228a")
-    .atmosphereAltitude(0.25)
-    .hexPolygonColor((e) => {
-      if (
-        [
-          "ITA",
-          "FJI",
-          "ALB",
-          "CHE",
-          "FLK",
-          "HRV",
-          "DEU",
-          "BIH",
-          "USA",
-          "SVK",
-          "BGR",
-          "ISL",
-          "NOR",
-          "SVN",
-          "FRA",
-          "CAN",
-          "AUT",
-          "BEL",
-          "POL",
-          "FIN",
-          "LTU",
-          "AND",
-          "CHL",
-          "ESP",
-          "NLD",
-          "CZE",
-          "SRB",
-          "SWE",
-          "PRT",
-          "RUS",
-          "HUN",
-          "AUS",
-          "LVA",
-          "JPN",
-          "EST",
-          "GEO",
-          "JOR",
-          "UKR",
-        ].includes(e.properties.ISO_A3)
-      ) {
-        return "rgba(255,255,255, 1)"
-      } else return "rgba(255,255,255, 0.45)"
-    })
-
-  Earth.rotateY(-Math.PI * (4 / 9))
-  // Earth.rotateZ(-Math.PI / 6)
-  const globeMaterial = Earth.globeMaterial()
-  globeMaterial.color = new Color(0x3a228a)
-  globeMaterial.emissive = new Color(0x220038)
-  globeMaterial.emissiveIntensity = 0.1
-  globeMaterial.shininess = 0.7
-  // globeMaterial.wireframe = true;
+  const [myGlobe, setGlobe] = useState({})
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setTimeout(() => {
+        // Initialize the Globe
+        const Earth = new ThreeGlobe({
+          waitForGlobeReady: true,
+          animateIn: true,
+        })
+          .hexPolygonsData(countries.features)
+          .hexPolygonResolution(3)
+          .hexPolygonMargin(0.55)
+          .showAtmosphere(true)
+          .atmosphereColor("#3a228a")
+          .atmosphereAltitude(0.25)
+          .hexPolygonColor((e) => {
+            if (
+              [
+                "ITA",
+                "FJI",
+                "ALB",
+                "CHE",
+                "FLK",
+                "HRV",
+                "DEU",
+                "BIH",
+                "USA",
+                "SVK",
+                "BGR",
+                "ISL",
+                "NOR",
+                "SVN",
+                "FRA",
+                "CAN",
+                "AUT",
+                "BEL",
+                "POL",
+                "FIN",
+                "LTU",
+                "AND",
+                "CHL",
+                "ESP",
+                "NLD",
+                "CZE",
+                "SRB",
+                "SWE",
+                "PRT",
+                "RUS",
+                "HUN",
+                "AUS",
+                "LVA",
+                "JPN",
+                "EST",
+                "GEO",
+                "JOR",
+                "UKR",
+              ].includes(e.properties.ISO_A3)
+            ) {
+              return "rgba(255,255,255, 1)"
+            } else return "rgba(255,255,255, 0.45)"
+          })
+
+        Earth.rotateY(-Math.PI * (4 / 9))
+        // Earth.rotateZ(-Math.PI / 6)
+        const globeMaterial = Earth.globeMaterial()
+        globeMaterial.color = new Color(0x3a228a)
+        globeMaterial.emissive = new Color(0x220038)
+        globeMaterial.emissiveIntensity = 0.1
+        globeMaterial.shininess = 0.7
+        // globeMaterial.wireframe = true;
+
+        // console.log(Earth)
+        // console.log("Earth has finished loading")
+
+        setGlobe(Earth)
+
         Earth.arcsData(travelHistory.flights)
           .arcColor((e) => {
             return e.status ? "#49D49D" : "#FF4000"
@@ -128,8 +134,7 @@ export default function Globe() {
         intensity={0.5}
       />
       <fog color={"#535ef3"} near={400} far={2000} />
-      {/* <Box /> */}
-      <primitive object={Earth} />
+      <primitive object={myGlobe} />
     </Canvas>
   )
 }
