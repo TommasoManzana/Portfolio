@@ -10,102 +10,138 @@
   Cache-Control: public, max-age=31536000, immutable
 /commons-c4fdbfa7d4c224ee1fca.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js
+/component---src-templates-blog-post-js-ef7f84dfc9a9121a18af.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-404-js-f2a94f7b53ee167884a1.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-blog-js-55f74b6ee01e137fec48.js
+/component---src-pages-blog-js-9cdf4ecc48cf8d7a92d8.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-cv-js-cbe5ce689bb5e338fec8.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-index-js-21a16f1a0498c179ac07.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-e44116f5dff494464819.js
+/webpack-runtime-29170f81fba2894ae497.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-b66dd7d7f1dd0efa2e70.js
   Cache-Control: public, max-age=31536000, immutable
-/app-b5e152865b89846cf3f4.js
+/fb7d5399-d0eb2a522f8dd6ea5fc1.js
+  Cache-Control: public, max-age=31536000, immutable
+/f8c9b989-da8175df8d3560d5aae4.js
+  Cache-Control: public, max-age=31536000, immutable
+/e02aaf40-d6b2be1ea27d9d713524.js
+  Cache-Control: public, max-age=31536000, immutable
+/app-fbcc697d964538d4502a.js
   Cache-Control: public, max-age=31536000, immutable
 /static/*
   Cache-Control: public, max-age=31536000, immutable
 /sw.js
   Cache-Control: no-cache
 /Portfolio/blog/UniTn-Hackathon
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
   Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
-  Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-ef7f84dfc9a9121a18af.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/UniTn-Hackathon/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/covid19
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
   Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
-  Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-ef7f84dfc9a9121a18af.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/covid19/page-data.json>; rel=preload; as=fetch; crossorigin
-/Portfolio/blog/FST
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
-  Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
-  Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
-  Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
-  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
-  Link: </Portfolio/page-data/blog/FST/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/simulated-annealing-salesman
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
   Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
-  Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-ef7f84dfc9a9121a18af.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/simulated-annealing-salesman/page-data.json>; rel=preload; as=fetch; crossorigin
-/Portfolio/blog/SkiRaceGenie
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+/Portfolio/blog/FST
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
   Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
-  Link: </Portfolio/component---src-templates-blog-post-js-6adbf5a6993759ce6fdc.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-ef7f84dfc9a9121a18af.js>; rel=preload; as=script
+  Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
+  Link: </Portfolio/page-data/blog/FST/page-data.json>; rel=preload; as=fetch; crossorigin
+/Portfolio/blog/SkiRaceGenie
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
+  Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
+  Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-templates-blog-post-js-ef7f84dfc9a9121a18af.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/SkiRaceGenie/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/404/
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
   Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
   Link: </Portfolio/component---src-pages-404-js-f2a94f7b53ee167884a1.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/404.html
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
   Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
   Link: </Portfolio/component---src-pages-404-js-f2a94f7b53ee167884a1.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
   Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
-  Link: </Portfolio/component---src-pages-blog-js-55f74b6ee01e137fec48.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-pages-blog-js-9cdf4ecc48cf8d7a92d8.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/cv/
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
   Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
   Link: </Portfolio/component---src-pages-cv-js-cbe5ce689bb5e338fec8.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/cv/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/
-  Link: </Portfolio/webpack-runtime-e44116f5dff494464819.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-29170f81fba2894ae497.js>; rel=preload; as=script
   Link: </Portfolio/framework-b66dd7d7f1dd0efa2e70.js>; rel=preload; as=script
-  Link: </Portfolio/app-b5e152865b89846cf3f4.js>; rel=preload; as=script
+  Link: </Portfolio/fb7d5399-d0eb2a522f8dd6ea5fc1.js>; rel=preload; as=script
+  Link: </Portfolio/f8c9b989-da8175df8d3560d5aae4.js>; rel=preload; as=script
+  Link: </Portfolio/e02aaf40-d6b2be1ea27d9d713524.js>; rel=preload; as=script
+  Link: </Portfolio/app-fbcc697d964538d4502a.js>; rel=preload; as=script
   Link: </Portfolio/commons-c4fdbfa7d4c224ee1fca.js>; rel=preload; as=script
   Link: </Portfolio/component---src-pages-index-js-21a16f1a0498c179ac07.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
