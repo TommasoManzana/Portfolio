@@ -8,10 +8,15 @@
     "@emotion/core": "^11.0.0",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "@react-three/drei": "^8.10.2",
+    "@react-three/fiber": "^7.0.26",
     "gatsby": "^4.7.1",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-emotion": "^7.7.0",
     "gatsby-plugin-manifest": "^4.7.0",
+    "gatsby-plugin-mdx": "^3.7.1",
     "gatsby-plugin-netlify": "^4.1.0",
     "gatsby-plugin-offline": "^5.7.0",
     "gatsby-plugin-postcss": "^5.7.0",
@@ -21,7 +26,6 @@
     "gatsby-remark-prismjs": "^6.7.0",
     "gatsby-remark-reading-time": "^1.1.0",
     "gatsby-source-filesystem": "^4.7.0",
-    "gatsby-transformer-remark": "^5.7.0",
     "gatsby-transformer-sharp": "^4.7.0",
     "postcss-discard-comments": "^5.0.3",
     "postcss-loader": "^6.2.1",
@@ -33,12 +37,15 @@
     "react-helmet": "^6.1.0",
     "react-social-icons": "^5.10.0",
     "react-typist": "^2.0.5",
+    "three-conic-polygon-geometry": "^1.5.1",
+    "three-globe": "^2.22.1",
     "typeface-nunito": "^1.1.13"
   },
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "postcss": "^8.4.6",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "three": "^0.137.5"
   },
   "keywords": [
     "gatsby"
