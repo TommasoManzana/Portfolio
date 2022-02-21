@@ -18,30 +18,30 @@ Here are some of the hurdles:
 <div style="display: flex; justify-content: center; flex-flow: wrap; margin-bottom : 1.5rem;">
     <div
         style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-        <img style="display: inline-block;" src="../images/fst/sc1.png">
+        <img style="display: inline-block;" src="../images/fst/sc1.png" />
     </div>
     <div
         style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-        <img style="display: inline-block;" src="../images/fst/sc2.png">
+        <img style="display: inline-block;" src="../images/fst/sc2.png" />
     </div>
     <div
         style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-        <img style="display: inline-block;" src="../images/fst/sc3.png">
+        <img style="display: inline-block;" src="../images/fst/sc3.png" />
     </div>
 </div>
 
 <div style="display: flex; justify-content: center; flex-flow: wrap; margin-bottom : 2rem;">
     <div
         style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-        <img style="display: inline-block;" src="../images/fst/sc4.png">
+        <img style="display: inline-block;" src="../images/fst/sc4.png" />
     </div>
     <div
         style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-        <img style="display: inline-block;" src="../images/fst/sc5.png">
+        <img style="display: inline-block;" src="../images/fst/sc5.png" />
     </div>
     <div
         style="width: 210px; margin: 0 0.5rem; margin-bottom : 1rem; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-        <img style="display: inline-block;" src="../images/fst/sc6.png">
+        <img style="display: inline-block;" src="../images/fst/sc6.png" />
     </div>
 </div>
 
