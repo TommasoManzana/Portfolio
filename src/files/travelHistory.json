@@ -199,7 +199,7 @@
     },
     {
       "type": "flight",
-      "order": 15,
+      "order": 4,
       "from": "CAN",
       "to": "ITA",
       "flightCode": "HY 778",
@@ -297,7 +297,7 @@
     },
     {
       "type": "flight",
-      "order": 22,
+      "order": 5,
       "from": "CHL",
       "to": "ITA",
       "flightCode": "HY 778",
@@ -395,7 +395,7 @@
     },
     {
       "type": "flight",
-      "order": 29,
+      "order": 13,
       "from": "RUS",
       "to": "ITA",
       "flightCode": "HY 778",
@@ -409,7 +409,7 @@
     },
     {
       "type": "flight",
-      "order": 29.5,
+      "order": 14,
       "from": "RUS",
       "to": "ITA",
       "flightCode": "HY 778",
@@ -423,7 +423,7 @@
     },
     {
       "type": "flight",
-      "order": 30,
+      "order": 17,
       "from": "HUN",
       "to": "ITA",
       "flightCode": "HY 778",
@@ -437,7 +437,7 @@
     },
     {
       "type": "flight",
-      "order": 31,
+      "order": 8,
       "from": "AUS",
       "to": "ITA",
       "flightCode": "HY 778",
@@ -465,7 +465,7 @@
     },
     {
       "type": "flight",
-      "order": 33,
+      "order": 3.5,
       "from": "JPN",
       "to": "ITA",
       "flightCode": "HY 778",
@@ -479,7 +479,7 @@
     },
     {
       "type": "flight",
-      "order": 34,
+      "order": 6,
       "from": "EST",
       "to": "ITA",
       "flightCode": "HY 778",
@@ -493,7 +493,7 @@
     },
     {
       "type": "flight",
-      "order": 35,
+      "order": 12,
       "from": "GEO",
       "to": "ITA",
       "flightCode": "HY 778",
@@ -507,7 +507,7 @@
     },
     {
       "type": "flight",
-      "order": 36,
+      "order": 1,
       "from": "JOR",
       "to": "ITA",
       "flightCode": "HY 778",
