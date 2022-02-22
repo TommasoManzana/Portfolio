@@ -8,8 +8,11 @@ import ThreeGlobe from "three-globe"
 import countries from "../files/globe-data-min.json"
 import travelHistory from "../files/travelHistory.json"
 
+import { keyframes } from "@emotion/react"
+
 export default function Globe() {
   const [myGlobe, setGlobe] = useState({})
+  const [rendered, setRendered] = useState(false)
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -84,6 +87,10 @@ export default function Globe() {
 
         setGlobe(Earth)
 
+        setTimeout(() => {
+          setRendered(true)
+        }, 500)
+
         // Handle lines
         Earth.arcsData(travelHistory.flights)
           .arcColor((e) => {
@@ -102,6 +109,7 @@ export default function Globe() {
           .arcDashInitialGap((e) => e.order * 1)
       }, 500)
     }, 1000)
+
     return () => clearTimeout(timer)
   }, [])
 
@@ -129,21 +137,41 @@ export default function Globe() {
   }
 
   return (
-    <Canvas style={{ height: "40vh" }}>
-      <OrbitControls
-        enableZoom={false}
-        enablePan={false}
-        enableDamping={true}
-        dampingFactor={0.01}
-        minDistance={200}
-        maxDistance={500}
-        rotateSpeed={0.8}
-      />
-      <Lights />
-      <fog color={"#535ef3"} near={400} far={2000} />
-      <Suspense fallback={null}>
-        <primitive object={myGlobe} />
-      </Suspense>
-    </Canvas>
+    <>
+      <div
+        style={{
+          position: "absolute",
+          left: "calc(50vw - 55px)",
+          visibility: !rendered ? "visible" : "hidden",
+          opacity: !rendered ? 1 : 0,
+          transition: !rendered ? "" : "visibility 0s 1s, opacity 1s linear",
+        }}
+      >
+        <h3 style={{ lineHeight: "40vh" }}>Loading...</h3>
+      </div>
+      <Canvas
+        style={{
+          height: "40vh",
+          // visibility: !rendered ? "hidden" : "visible",
+          opacity: !rendered ? 0 : 1,
+          transition: !rendered ? "" : "visibility 0s 2s, opacity 4s ease-in",
+        }}
+      >
+        <OrbitControls
+          enableZoom={false}
+          enablePan={false}
+          enableDamping={true}
+          dampingFactor={0.01}
+          minDistance={200}
+          maxDistance={500}
+          rotateSpeed={0.8}
+        />
+        <Lights />
+        <fog color={"#535ef3"} near={400} far={2000} />
+        <Suspense fallback={null}>
+          <primitive object={myGlobe} />
+        </Suspense>
+      </Canvas>
+    </>
   )
 }
