@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState, useEffect, Suspense } from "react"
 
 import { Color } from "three"
 import { Canvas } from "@react-three/fiber"
@@ -32,7 +32,7 @@ export default function Globe() {
                 "FJI",
                 "ALB",
                 "CHE",
-                "FLK",
+                "GBR",
                 "HRV",
                 "DEU",
                 "BIH",
@@ -72,8 +72,9 @@ export default function Globe() {
             } else return "rgba(255,255,255, 0.45)"
           })
 
-        Earth.rotateY(-Math.PI * (4 / 9))
+        // Earth.rotateY(-Math.PI * (1 / 9))
         // Earth.rotateZ(-Math.PI / 6)
+        Earth.lookAt(0, -40, 60)
         const globeMaterial = Earth.globeMaterial()
         globeMaterial.color = new Color(0x3a228a)
         globeMaterial.emissive = new Color(0x220038)
@@ -81,11 +82,9 @@ export default function Globe() {
         globeMaterial.shininess = 0.7
         // globeMaterial.wireframe = true;
 
-        // console.log(Earth)
-        // console.log("Earth has finished loading")
-
         setGlobe(Earth)
 
+        // Handle lines
         Earth.arcsData(travelHistory.flights)
           .arcColor((e) => {
             return e.status ? "#49D49D" : "#FF4000"
@@ -102,39 +101,49 @@ export default function Globe() {
           .arcsTransitionDuration(1000)
           .arcDashInitialGap((e) => e.order * 1)
       }, 500)
-    }, 2500)
+    }, 1000)
     return () => clearTimeout(timer)
   }, [])
+
+  const Lights = () => {
+    return (
+      <>
+        <ambientLight color={"#BBBBBB"} intensity={0.3} />
+        <directionalLight
+          color={"#FFFFFF"}
+          position={[-800, 400, 400]}
+          intensity={0.8}
+        />
+        <directionalLight
+          color={"#7982f6"}
+          position={[-200, 100, 200]}
+          intensity={1}
+        />
+        <directionalLight
+          color={"#8566cc"}
+          position={[-200, 100, 200]}
+          intensity={0.5}
+        />
+      </>
+    )
+  }
 
   return (
     <Canvas style={{ height: "40vh" }}>
       <OrbitControls
         enableZoom={false}
-        // enablePan={false}
+        enablePan={false}
         enableDamping={true}
         dampingFactor={0.01}
         minDistance={200}
         maxDistance={500}
         rotateSpeed={0.8}
       />
-      <ambientLight color={"#BBBBBB"} intensity={0.3} />
-      <directionalLight
-        color={"#FFFFFF"}
-        position={[-800, 2000, 400]}
-        intensity={0.8}
-      />
-      <directionalLight
-        color={"#7982f6"}
-        position={[-200, 500, 200]}
-        intensity={1}
-      />
-      <directionalLight
-        color={"#8566cc"}
-        position={[-200, 500, 200]}
-        intensity={0.5}
-      />
+      <Lights />
       <fog color={"#535ef3"} near={400} far={2000} />
-      <primitive object={myGlobe} />
+      <Suspense fallback={null}>
+        <primitive object={myGlobe} />
+      </Suspense>
     </Canvas>
   )
 }
