@@ -1,0 +1,37 @@
+---
+title: "Password Generator"
+date: "2023-02-25"
+draft: false
+path: "/blog/PasswordGenerator"
+category: "Code"
+---
+
+import PswdGen from "../components/PswdGen.js"
+
+A simple PasswordGenerator inspired by [LastPass](https://www.lastpass.com/features/password-generator#generatorTool).
+
+<div style="margin-top : 2rem;"></div>
+<PswdGen />
+<div style="margin-bottom : 2rem;"></div>
+
+## The code
+
+```javascript
+  const generatePassword = () => {
+      // Password characters
+      let chars = '';
+      if (useUppercase) chars += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+      if (useLowercase) chars += 'abcdefghijklmnopqrstuvwxyz';
+      if (useNumbers) chars += '0123456789';
+      if (useSymbols) chars += '!@#$%^&*()_+-={}[]\\|:;"<>,.?/~`';
+      let password = '';
+
+      // Generate a random password
+      for (let i = 0; i < passwordLength; i++) {
+          password += chars.charAt(Math.floor(Math.random() * chars.length));
+      }
+
+      // Set the state
+      setPassword(password);
+  }
+```
