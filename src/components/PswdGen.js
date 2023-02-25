@@ -66,14 +66,14 @@ export default function PswdGen() {
         <>
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 {/* Password */}
-                <div style={{ width: '500px', height: '80px', backgroundColor: '#f5f5f5', borderRadius: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '24px', margin: '20px 0' }}>
+                <div style={{ width: '100%', maxWidth: '500px', height: '80px', backgroundColor: '#f5f5f5', borderRadius: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '24px', margin: '20px 0' }}>
                     <div style={{paddingLeft: '20px'}}>{password ? password : ''}</div>
                     <FaCopy style={{ marginRight: '20px', color: copied ? '#64A67F' : '#6C757D', cursor: 'pointer' }} onClick={handleCopyClick} />
                 </div>
 
 
                 {/* Options */}
-                <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+                <div style={{ width: '100%', maxWidth: '500px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap' }}>
                     <input type="number" id="passwordLength-number" name="passwordLength-number" min="1" max="30" step="1" value={passwordLength} onChange={handlePasswordLengthChange} style={{ border: '2px solid #ccc', borderRadius: '5px', padding: '5px', fontSize: '16px', outline: 'none', transition: 'border-color 0.2s, box-shadow 0.2s', margin: '0px 10px'}} />
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                         <label htmlFor="passwordLength">Password length:</label>
