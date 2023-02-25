@@ -8,7 +8,7 @@ import ThreeGlobe from "three-globe"
 import countries from "../files/globe-data-min.json"
 import travelHistory from "../files/travelHistory.json"
 
-import { keyframes } from "@emotion/react"
+// import { keyframes } from "@emotion/react"
 
 export default function Globe() {
   const [myGlobe, setGlobe] = useState({})
@@ -141,20 +141,20 @@ export default function Globe() {
       <div
         style={{
           position: "absolute",
-          left: "calc(50vw - 55px)",
+          left: "calc(50vw - 155px)",
           visibility: !rendered ? "visible" : "hidden",
           opacity: !rendered ? 1 : 0,
           transition: !rendered ? "" : "visibility 0s 1s, opacity 1s linear",
         }}
       >
-        <h3 style={{ lineHeight: "40vh" }}>Loading...</h3>
+        <h3 style={{ lineHeight: "40vh" }}>Loading interactive globe...</h3>
       </div>
       <Canvas
         style={{
           height: "40vh",
           // visibility: !rendered ? "hidden" : "visible",
           opacity: !rendered ? 0 : 1,
-          transition: !rendered ? "" : "visibility 0s 2s, opacity 4s ease-in",
+          transition: !rendered ? "" : "visibility 0s 1s, opacity 2s ease-in",
         }}
       >
         <OrbitControls
