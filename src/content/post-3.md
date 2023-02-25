@@ -6,12 +6,14 @@ path: "/blog/FST"
 category: "App"
 ---
 
-The goal was to develop a Mobile App as well as a Web App capable of managing a ski team. Such a commission has been given by one of the most prestigious ski teams in Italy, the [Falconeri Ski Team](https://falconeriskiteam.net/).
-Here are some of the hurdles:
 
-- Manage different groups / categories of skiers & instructors
-- Collect enough info for each workout / race in a straightforward manner
-- Single skier profile with some analysis
+The goal of the project was to create a Mobile and Web Application to manage a ski team. The application needed to manage different groups of skiers and instructors, collect information for each workout or race, and provide analytical insights through a single skier profile. Challenges encountered included:
+
+- designing the user interface to be user-friendly
+- catering to industry-specific requirements
+- ensuring scalability and ease of updating.
+
+Such a commission has been given by one of the most prestigious ski teams in Italy, the [Falconeri Ski Team](https://falconeriskiteam.net/).
 
 ## App Screenshots
 
@@ -47,4 +49,9 @@ Here are some of the hurdles:
 
 ## Tools
 
-The app was realized using the [Ionic Framework](https://ionicframework.com/), written in [Angular](https://angular.io/). The authentication process was managed using Google's [Firebase](https://firebase.google.com/), the whole backend was recently moved to a proprietary server and developed via SQL.
+The app was developed using the [Ionic Framework](https://ionicframework.com/), written in [Angular](https://angular.io/), with authentication managed by Google's [Firebase](https://firebase.google.com/). At first the backend was on Firebase as well but was later moved to a proprietary server and developed via SQL.
+
+
+## Learning Experience
+
+Developing this application taught us a lot about app development, backend database management and UI/UX design, including the significance of user-centric design, industry-specific requirements, and scalability. The project was a fulfilling experience, and the resulting application effectively meets the needs of the Falconeri Ski Team.
