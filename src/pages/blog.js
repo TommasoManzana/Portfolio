@@ -7,6 +7,8 @@ import styled from "@emotion/styled"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 
+import AniLink from "gatsby-plugin-transition-link/AniLink"
+
 const Content = styled.div`
   margin: 0 auto;
   max-width: 860px;
@@ -49,7 +51,20 @@ const IndexPage = ({ data }) => {
           })
           .map(({ node }) => (
             <div key={node.id}>
-              <Link
+              <AniLink 
+                paintDrip 
+                to={node.frontmatter.path}
+                duration={0.5}
+                color="rebeccapurple"
+                css={css`
+                text-decoration: none;
+                color: inherit;
+              `}
+              >
+                <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
+              </AniLink>
+
+              {/* <Link
                 to={node.frontmatter.path}
                 css={css`
                   text-decoration: none;
@@ -57,7 +72,7 @@ const IndexPage = ({ data }) => {
                 `}
               >
                 <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
-              </Link>
+              </Link> */}
               <div>
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
                 <ReadingTime> - {node.frontmatter.category}</ReadingTime>
