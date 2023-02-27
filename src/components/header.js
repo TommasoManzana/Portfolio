@@ -3,8 +3,6 @@ import styled from "@emotion/styled"
 import PropTypes from "prop-types"
 import React from "react"
 
-import AniLink from "gatsby-plugin-transition-link/AniLink"
-import { css } from "@emotion/react"
 
 const Content = styled.div`
   max-width: 860px;
@@ -80,34 +78,8 @@ const Header = ({ siteTitle }) => (
     <Content>
       <p>
         <HomeLink to="/">Home</HomeLink>
-        <NavLink>
-          <AniLink
-            paintDrip
-            to="/blog"
-            duration={0.3}
-            color="rebeccapurple"
-            css={css`
-            text-decoration: none;
-            color: inherit;
-          `}
-          >
-            Projects
-          </AniLink>
-        </NavLink>
-        <NavLink>
-          <AniLink
-            paintDrip
-            to="/cv"
-            duration={0.3}
-            color="rebeccapurple"
-            css={css`
-            text-decoration: none;
-            color: inherit;
-          `}
-          >
-            CV
-          </AniLink>
-        </NavLink>
+        <NavLink to="/blog">Projects</NavLink>
+        <NavLink to="/cv">CV</NavLink>
         <GitHubLink href="https://github.com/TommasoManzana">GitHub</GitHubLink>
       </p>
     </Content>
