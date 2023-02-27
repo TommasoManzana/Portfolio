@@ -60,10 +60,17 @@ export default function PswdGen() {
         setTimeout(() => {
           setCopied(false);
         }, 1500);
-      };
+    };
+
+    function maxLengthCheck() {
+        if (passwordLength > 30){
+            setPasswordLength(30)
+        }
+    }
 
     return (
         <>
+
             <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                 {/* Password */}
                 <div style={{ width: '100%', maxWidth: '500px', height: '80px', backgroundColor: '#f5f5f5', borderRadius: '10px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '24px', margin: '20px 0' }}>
@@ -74,7 +81,7 @@ export default function PswdGen() {
 
                 {/* Options */}
                 <div style={{ width: '100%', maxWidth: '500px', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap' }}>
-                    <input type="number" id="passwordLength-number" name="passwordLength-number" min="1" max="30" step="1" value={passwordLength} onChange={handlePasswordLengthChange} style={{ border: '2px solid #ccc', borderRadius: '5px', padding: '5px', fontSize: '16px', outline: 'none', transition: 'border-color 0.2s, box-shadow 0.2s', margin: '0px 10px'}} />
+                    <input type="number" id="passwordLength-number" name="passwordLength-number" min="1" max="30" step="1" value={passwordLength} onChange={handlePasswordLengthChange} style={{ border: '2px solid #ccc', borderRadius: '5px', padding: '5px', fontSize: '16px', outline: 'none', transition: 'border-color 0.2s, box-shadow 0.2s', margin: '0px 10px'}} onInput={maxLengthCheck()} />
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                         <label htmlFor="passwordLength">Password length:</label>
                         <input type="range" id="passwordLength-slider" name="passwordLength-slider" min="1" max="30" value={passwordLength} onChange={handlePasswordLengthChange} style={{ width: '200px', margin: '10px 10px' }} />
