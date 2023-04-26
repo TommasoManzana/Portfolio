@@ -37,7 +37,7 @@ const ReadingTime = styled.h5`
 `
 
 const IndexPage = ({ data }) => {
-  console.log(data)
+  // console.log(data)
   return (
     <Layout>
       <Seo title="Projects" />
