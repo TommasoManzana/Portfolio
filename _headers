@@ -18,11 +18,11 @@
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-blog-js-a67af858a87fa30eb4a1.js
   Cache-Control: public, max-age=31536000, immutable
-/component---src-pages-cv-js-a7d7943cafc635848323.js
+/component---src-pages-cv-js-af4399ad57fa59943845.js
   Cache-Control: public, max-age=31536000, immutable
 /component---src-pages-index-js-6ec2b218d2dc5cf1ae98.js
   Cache-Control: public, max-age=31536000, immutable
-/webpack-runtime-0417a5fb0df3a81f6952.js
+/webpack-runtime-54513025cfcaf26624d6.js
   Cache-Control: public, max-age=31536000, immutable
 /framework-fef7ae2099136e52509e.js
   Cache-Control: public, max-age=31536000, immutable
@@ -41,7 +41,7 @@
 /sw.js
   Cache-Control: no-cache
 /Portfolio/blog/covid19
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -53,7 +53,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/covid19/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/FST
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -65,7 +65,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/FST/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/UniTn-Hackathon
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -77,7 +77,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/UniTn-Hackathon/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/SkiRaceGenie
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -89,7 +89,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/SkiRaceGenie/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/simulated-annealing-salesman
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -101,7 +101,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/simulated-annealing-salesman/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/SpiritOrange
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -113,7 +113,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/SpiritOrange/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/HousingPricePrediction
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -125,7 +125,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/HousingPricePrediction/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/PasswordGenerator
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -137,7 +137,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/PasswordGenerator/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/404/
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -149,7 +149,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/404/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/404.html
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -161,7 +161,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/404.html/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/blog/
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -174,7 +174,7 @@
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/blog/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/cv/
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
@@ -182,11 +182,11 @@
   Link: </Portfolio/e02aaf40-d0176c3d03a68c821feb.js>; rel=preload; as=script
   Link: </Portfolio/app-76584107d02e83049c4e.js>; rel=preload; as=script
   Link: </Portfolio/commons-0ef82db401f866150e74.js>; rel=preload; as=script
-  Link: </Portfolio/component---src-pages-cv-js-a7d7943cafc635848323.js>; rel=preload; as=script
+  Link: </Portfolio/component---src-pages-cv-js-af4399ad57fa59943845.js>; rel=preload; as=script
   Link: </Portfolio/page-data/app-data.json>; rel=preload; as=fetch; crossorigin
   Link: </Portfolio/page-data/cv/page-data.json>; rel=preload; as=fetch; crossorigin
 /Portfolio/
-  Link: </Portfolio/webpack-runtime-0417a5fb0df3a81f6952.js>; rel=preload; as=script
+  Link: </Portfolio/webpack-runtime-54513025cfcaf26624d6.js>; rel=preload; as=script
   Link: </Portfolio/framework-fef7ae2099136e52509e.js>; rel=preload; as=script
   Link: </Portfolio/fb7d5399-6aa13478c19f1fa66431.js>; rel=preload; as=script
   Link: </Portfolio/dadd2f00-3455941c540aa4ce14cf.js>; rel=preload; as=script
